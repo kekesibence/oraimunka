@@ -1,0 +1,19 @@
+input {
+    margin-top: 1%;
+}
+
+.error {
+    color: red;
+}
+ 
+.noError {
+    color: black;
+}
+
+.elrejtve {
+    visibility: hidden;
+}
+
+.megjelenve {
+    visibility: visible;
+}

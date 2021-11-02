@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Karakterszámláló</title>
+</head>
+
+<body>
+    <div>
+        <table>
+            <tr id="felhasznaloMezo">
+                <td>
+                    <label for="nev">Felhasználónév:</label>
+                </td>
+                <td>
+                    <input type="text" id="nev">
+                </td>
+                <td>
+                    <span id="nevSzamlalo"></span>
+                </td>
+            </tr>
+            <tr id="jelszoMezo">
+                <td>
+                    <label for="jelszo">Jelszó: </label>
+                </td>
+                <td>
+                    <input type="password" id="jelszo">
+                </td>
+                <td>
+                    <span id="jelszoSzamlalo"></span>
+                </td>
+            </tr>
+            <tr id="jelszoEllenorzoMezo">
+                <td>
+                    <label for="jelszoUjra">Jelszó újra: </label>
+                </td>
+                <td>
+                    <input type="password" id="jelszoUjra"><br>
+                </td>
+                <td>
+                    <span id="jelszoEllenorzo" class="elrejtve">A két jelszó nem egyezik</span>
+                </td>
+            </tr>
+        </table> 
+        <input type="submit" value="Regisztrál" id="submit">
+                <p id="sikeresReg" class="elrejtve">Sikeres regisztráció!</p>  
+    </div>
+</body>
+</html>
